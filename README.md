@@ -1,6 +1,6 @@
 # Roomly 2.0 — Presentación
 
-Presentación-demo de la app móvil de Roomly (semestre 2026).
+Presentación-demo de Roomly 2.0, web y móvil (semestre 2026).
 
 **Verla:** abre el enlace de GitHub Pages del repositorio, o descarga el repo y abre `index.html` en Chrome.
 
@@ -10,13 +10,13 @@ Presentación-demo de la app móvil de Roomly (semestre 2026).
 |---|---|
 | → · Espacio · Enter | Siguiente diapositiva |
 | ← | Diapositiva anterior |
-| R (o clic en un teléfono) | Repetir la diapositiva |
+| R (o clic en una pantalla) | Repetir la diapositiva |
 | F | Pantalla completa |
 | Inicio / Fin | Primera / última |
 
-Para ir a una diapositiva concreta agrega `#número` a la dirección (por ejemplo `#17`).
+Para ir a una diapositiva concreta agrega `#número` a la dirección (por ejemplo `#15`).
 
 ## Notas
 
-- Los videos de esta copia están convertidos a H.264 (720 px) para que se reproduzcan en cualquier navegador. La versión para presentar, con los videos originales, vive en el repositorio de Roomly (`docs/presentacion/deck/`, carpeta `media/` fuera de git).
-- Los datos de contacto que aparecen en las grabaciones son de prueba.
+- Los espacios de video muestran el código del video que va ahí (por ejemplo «VIDEO A4»). Cuando se agreguen los archivos a `media/` con ese nombre (`A4.mp4`, `R3-web.mp4`, `R3-ios.mp4`…), se reproducen solos.
+- La presentación anterior (solo móvil) sigue en [`v1/`](v1/).
