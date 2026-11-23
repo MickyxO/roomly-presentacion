@@ -11,15 +11,15 @@ Cada sección la presenta **una sola persona, de principio a fin**. Aris (estudi
 |---|---|---|---|
 | 0 · Problemática y solución | 1 – 4 | **Miguel** | 2:50 |
 | 1 · Demo: Aris busca y decide en familia | 5 – 10 | **Antonio** | 4:15 |
-| 2 · Demo: del otro lado, Diego | 11 – 14 | **Diego** | 3:40 |
+| 2 · Demo: del otro lado, Diego | 11 – 14 | **Diego** | 3:25 |
 | 3 · Demo: el día de la visita | 15 – 18 | **Aris** | 3:05 |
 | 4 · Demo: confianza | 19 – 20 | **Diego** | 2:00 |
 | 5 · Cómo funciona, resultados, negocio y cierre | 21 – 24 | **Miguel** | 3:45 |
-| | | **Total** | **≈ 19:35** |
+| | | **Total** | **≈ 19:20** |
 
 Sigue el formato pedido: **problemática** (1–2) → **solución** (3–4) → **demo** (5–20) → **cómo funciona** (21–22) → **modelo de negocio** (23).
 
-Por persona: **Miguel ≈ 6:35** · Diego 5:40 · Antonio 4:15 · Aris 3:05.
+Por persona: **Miguel ≈ 6:35** · Diego 5:25 · Antonio 4:15 · Aris 3:05.
 
 El texto de cada diapositiva está medido para durar lo mismo que su video (≈ 2.5 palabras por segundo). Si terminas antes que el video, no pasa nada: se avanza igual.
 
@@ -108,18 +108,18 @@ Y las reseñas solo las puede dejar quien sí fue a una visita. Le gusta lo que 
 
 ---
 
-## Sección 2 · Demo: del otro lado, Diego — Diego (3:40)
+## Sección 2 · Demo: del otro lado, Diego — Diego (3:25)
 
 ### 11 · Buenos días, Diego · 0:45
 > *Suena la campana con el «3» y llegan tres solicitudes.*
 
 "Este es Diego, el arrendador. Roomly también es su herramienta de trabajo. Abre su panel y lo primero que ve es lo que tiene pendiente: **tres visitas por responder**, cada una con quién la pidió y para cuándo."
 
-### 12 · Diego demuestra quién es · 1:10
+### 12 · Diego demuestra quién es · 0:55
 > *Se escanea la credencial: INE frente, reverso, selfie, En proceso.*
 
 "Pero para poder aceptar visitas, Diego primero tiene que demostrar quién es. Desde su panel inicia la verificación con **Didit**, nuestro proveedor de identidad.
-*(pasa al iPhone)* La web le muestra un código QR, lo escanea con su teléfono y ahí hace todo: fotografía su INE por el frente y por detrás, y luego una selfie con prueba de vida, para comprobar que es una persona real y no una foto. Didit compara su rostro con el de la credencial y revisa que la INE sea válida. Todo esto le toma un par de minutos, y no tiene que instalar nada: se hace desde el navegador del teléfono.
+*(pasa al iPhone)* La web le muestra un código QR, lo escanea con su teléfono y ahí hace todo: fotografía su INE por el frente y por detrás, y luego una selfie con prueba de vida, para comprobar que es una persona real y no una foto. Didit compara su rostro con el de la credencial y revisa que la INE sea válida. No tiene que instalar nada: se hace desde el navegador del teléfono.
 *(regresa a la laptop)* Al terminar, su panel ya dice «En proceso»: Didit dio su resultado y ahora una persona de nuestro equipo lo revisa.
 Sin esa verificación, Roomly no lo deja aceptar a nadie."
 
