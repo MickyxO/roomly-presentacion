@@ -497,7 +497,7 @@ h2.md{font-size:88px}
     <p class="eyebrow a" style="color:var(--ink2)">Web y móvil · una sola Roomly</p>
     <h1 class="a" style="--d:.1s;font-size:128px">Tu cuarto, a <span class="rot" id="rot"><span>5 min</span><span>8 min</span><span>12 min</span></span> de clase.</h1>
   </div>
-  <div class="dev web a" style="--d:.35s;left:380px;top:400px;width:940px" data-slot='{"id":"A1","t":"La home en la web","who":"Antonio · web · 10 s"}' data-list='[["v","A1-web.mp4"]]'></div>
+  <div class="dev web a" style="--d:.35s;left:420px;top:370px;width:860px" data-slot='{"id":"A1","t":"La home en la web","who":"Antonio · web · 10 s"}' data-list='[["v","A1-web.mp4"]]'></div>
   <div class="dev ios a from-r" style="--d:.55s;left:1340px;top:330px;width:260px" data-slot='{"id":"A1","t":"El inicio en el iPhone","who":"Antonio · iPhone · 10 s"}' data-list='[["v","A1-ios.mp4"]]'></div>
 </section>
 
@@ -607,19 +607,20 @@ h2.md{font-size:88px}
 </section>
 
 <!-- 11 · KYC -->
-<section class="slide" data-act="Del otro lado: Diego">
+<section class="slide" data-act="Del otro lado: Diego" data-mode="seq" data-steps="[[0,0],[1,0],[0,1]]" data-gap="700">
   <div style="position:absolute;left:128px;top:190px;width:560px;display:flex;flex-direction:column;gap:28px">
     <h2 class="md a">Diego demuestra quién es.</h2>
     <p class="lead a" style="--d:.1s">Sin verificarse, no puede aceptar visitas.</p>
     <div class="idcard a" style="--d:.2s"><div class="face"></div><div class="lines"><i></i><i></i><i></i><i></i></div><span class="scan"></span></div>
     <div class="steps seq a" style="--d:.25s"><span style="--d:1.2s">INE frente</span><span style="--d:2s">INE reverso</span><span style="--d:2.8s">Selfie</span><span style="--d:3.6s">En proceso</span></div>
   </div>
-  <div class="dev web a from-r" style="--d:.3s;left:740px;top:200px;width:1090px" data-slot='{"id":"M1","t":"Verificación de identidad","who":"Miguel · web · 30–40 s · tras el ticket de Didit"}' data-list='[["v","M1.mp4"]]'></div>
+  <div class="dev web a from-r" style="--d:.3s;left:700px;top:250px;width:860px" data-slot='{"id":"M1","t":"Verificación de identidad","who":"Miguel · web"}' data-list='[["v","M1.mp4",{"end":12}],["v","M1.mp4",{"start":12}]]'></div>
+  <div class="dev ios a from-r" style="--d:.45s;left:1592px;top:250px;width:210px" data-slot='{"id":"M1-ios","t":"INE y selfie","who":"Miguel · iPhone"}' data-list='[["v","M1-ios.mp4"]]'></div>
 </section>
 
 <!-- 12 · Publicar -->
 <section class="slide sky-top" data-act="Del otro lado: Diego">
-  <div class="dev web a from-l" style="--d:.2s;left:90px;top:200px;width:1130px" data-slot='{"id":"D2 + M2","t":"Publicar un cuarto","who":"Diego (asistente) y Miguel (predial) · web"}' data-list='[["v","D2.mp4"],["v","M2.mp4"]]'></div>
+  <div class="dev web a from-l" style="--d:.2s;left:90px;top:200px;width:1130px" data-slot='{"id":"M2","t":"Publicar un cuarto","who":"Miguel · web"}' data-list='[["v","M2.mp4"]]'></div>
   <div style="position:absolute;left:1280px;top:200px;width:530px;display:flex;flex-direction:column;gap:28px">
     <h2 class="md a">Publicar un cuarto.</h2>
     <p class="lead a" style="--d:.1s">Paso a paso. Lo que sube Diego es lo que ve Aris.</p>
@@ -888,7 +889,7 @@ document.querySelectorAll('.dev[data-list]').forEach(dev => {
     const el = dev.querySelectorAll('.m')[k];
     const it = { t, o, el, ok: false };
     const mark = () => { it.ok = true; el.classList.add('ok'); screen.classList.add('has'); };
-    if (t === 'v') el.addEventListener('loadeddata', mark, { once: true });
+    if (t === 'v') el.addEventListener('loadeddata', () => { mark(); if (isWeb && k === 0 && el.videoWidth) screen.style.aspectRatio = `${el.videoWidth} / ${el.videoHeight}`; }, { once: true });
     else el.addEventListener('load', mark, { once: true });
     return it;
   });
@@ -922,6 +923,7 @@ function playItem(dev, item, tk) {
 }
 function prime(s) { if (s) s.querySelectorAll('video').forEach(v => { if (v.preload !== 'auto') { v.preload = 'auto'; v.load(); } }); }
 function resetSlide(s) {
+  s.querySelectorAll('.dev[data-list]').forEach(d => d._list.forEach(it => { if (it.t === 'v' && it.o.start) { try { it.el.currentTime = it.o.start; } catch (e) {} } }));
   s.classList.remove('step-1', 'step-2', 'step-3', 'done');
   s.querySelectorAll('video').forEach(v => { v.pause(); try { v.currentTime = 0; } catch (e) {} });
   s.querySelectorAll('.dev[data-list]').forEach(d => { d.classList.remove('waiting', 'playing'); setBar(d, 0); show(d, d._list[0]); });
@@ -983,6 +985,26 @@ async function run(s, tk) {
   countUps(s, tk); rotStart(s); typeIn(s, tk); countdown(s, tk);
   const devs = [...s.querySelectorAll('.dev[data-list]')];
   if (!devs.length) { await wait(1400); if (alive(tk)) s.classList.add('done'); return; }
+  if (s.dataset.steps) {
+    const pasos = JSON.parse(s.dataset.steps);
+    devs.forEach(d => d.classList.add('waiting'));
+    await wait(1300); if (!alive(tk)) return;
+    let anterior = null;
+    for (let k = 0; k < pasos.length; k++) {
+      const [di, ii] = pasos[k], d = devs[di];
+      if (anterior && anterior !== d) {
+        anterior.classList.remove('playing'); anterior.classList.add('waiting');
+        if (s.querySelector('.wire')) { wirePath(s, anterior, d); await travel(s, tk); }
+        else await wait(+(s.dataset.gap || 0));
+        if (!alive(tk)) return;
+      }
+      d.classList.remove('waiting'); d.classList.add('playing');
+      await playItem(d, d._list[ii], tk); if (!alive(tk)) return;
+      s.classList.add('step-' + (k + 1));
+      anterior = d;
+    }
+    devs.forEach(d => d.classList.remove('waiting', 'playing')); s.classList.add('done'); return;
+  }
   if (s.dataset.mode === 'seq' && devs.length > 1) {
     devs.slice(1).forEach(d => d.classList.add('waiting'));
     await wait(1300); if (!alive(tk)) return;
