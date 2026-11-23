@@ -1,6 +1,6 @@
 # Guion oral v2 — Roomly 2.0, web y móvil (20 min, 4 integrantes)
 
-> Deck: `docs/presentacion/deck-v2/presentar.html` (versión final: https://claude.ai/artifact/WPDfsUd3mUc3gGr1tUTgEZ; la copia de GitHub Pages todavía es la versión anterior).
+> Presentación: https://mickyxo.github.io/roomly-presentacion/ (pantalla completa con **F**).
 > Tono: venta a un posible comprador. Frases cortas, hablando **al público**, no a la pantalla. Lo que va en *cursiva* son acciones o lo que pasa en pantalla; no se dice.
 
 ## Reparto por secciones
