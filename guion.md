@@ -52,12 +52,12 @@ Diego presenta dos secciones (2 y 4). Los videos de la 19 y la 20 los graba Migu
 "Para eso existe **Roomly**: tu cuarto, a minutos de clase. Una sola plataforma en la computadora y en el teléfono, con el mismo diseño y los mismos datos. Lo que publicas en uno aparece al instante en el otro, y tu cuenta es la misma en los dos."
 
 ### 4 · Las dudas del inicio, resueltas · 0:50
-> *Aparecen las cuatro tarjetas; se tacha cada pregunta y se enciende su respuesta. Leer cada pregunta tal como se dijo en la diapositiva 1.*
+> *Aparecen las cuatro tarjetas; se tacha cada pregunta y se enciende su respuesta. Leerlas en el orden de las tarjetas, empezando por «¿Quién me va a rentar?».*
 
 "¿Se acuerdan de las cuatro preguntas del principio? Son las mismas que se hizo Aris, y Roomly responde cada una.
-**¿Será real el anuncio?** Cada cuarto tiene su predial revisado por el equipo, y el arrendador verificó su identidad.
+**¿Quién me va a rentar?** Un arrendador verificado: antes de poder aceptar una visita, valida su identidad con Didit, con su INE y una prueba de vida, y una persona del equipo lo aprueba. Además, su perfil tiene reseñas de estudiantes que sí fueron a verlo.
 **¿Qué tan lejos queda mi escuela?** No te damos una dirección: te damos los minutos reales a tu facultad, caminando, en carro o en camión.
-**¿Quién me va a rentar?** Un perfil del arrendador, con reseñas de estudiantes que sí fueron a verlo.
+**¿Será real el anuncio?** Cada predial lo revisa a mano una persona del equipo antes de que el cuarto se publique.
 **¿Es seguro ir a verlo?** La cita, el chat y los recordatorios quedan dentro de Roomly, con registro de todo.
 No se los vamos a contar: se los vamos a enseñar. Vamos a acompañar a Aris. **Antonio.**"
 
