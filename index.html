@@ -846,7 +846,7 @@ h2.md{font-size:88px}
 </section>
 
 <!-- 19 · Confianza -->
-<section class="slide cobalt" data-act="Confianza" data-hud="light" data-brand="light">
+<section class="slide cobalt" data-act="Confianza" data-hud="light" data-brand="light" data-once>
   <div style="position:absolute;left:128px;top:160px;width:560px;display:flex;flex-direction:column;gap:26px">
     <p class="eyebrow a"><span class="n">6</span>Confianza</p>
     <h2 class="a" style="--d:.1s;font-size:74px">Una persona revisa cada caso.</h2>
@@ -1149,7 +1149,7 @@ async function run(s, tk) {
   }
   await wait(900); if (!alive(tk)) return;
   // varios dispositivos sin secuencia: todos a la vez; uno solo: en bucle
-  const loop = async d => { while (alive(tk)) { s.classList.remove('done'); for (const it of d._list) { await playItem(d, it, tk); if (!alive(tk)) return; } s.classList.add('done'); } };
+  const loop = async d => { while (alive(tk)) { for (const it of d._list) { await playItem(d, it, tk); if (!alive(tk)) return; } s.classList.add('done'); if (s.dataset.once !== undefined) return; } };
   devs.forEach(loop);
 }
 let cur = -1;
