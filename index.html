@@ -1139,7 +1139,7 @@ async function run(s, tk) {
   }
   await wait(900); if (!alive(tk)) return;
   // varios dispositivos sin secuencia: todos a la vez; uno solo: en bucle
-  const loop = async d => { while (alive(tk)) { for (const it of d._list) { await playItem(d, it, tk); if (!alive(tk)) return; } s.classList.add('done'); } };
+  const loop = async d => { while (alive(tk)) { s.classList.remove('done'); for (const it of d._list) { await playItem(d, it, tk); if (!alive(tk)) return; } s.classList.add('done'); } };
   devs.forEach(loop);
 }
 let cur = -1;
