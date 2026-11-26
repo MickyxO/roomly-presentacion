@@ -12,23 +12,23 @@ Cada sección la presenta **una sola persona, de principio a fin**. Aris (estudi
 | 0 · Problemática y solución | 1 – 5 | **Miguel** | 3:15 |
 | 1 · Demo: Aris busca y decide en familia | 6 – 11 | **Antonio** | 4:15 |
 | 2 · Demo: del otro lado, Diego | 12 – 15 | **Diego** | 3:25 |
-| 3 · Demo: el día de la visita | 16 – 19 | **Aris** | 3:05 |
-| 4 · Demo: confianza | 20 – 21 | **Diego** | 2:00 |
-| 5 · Cómo funciona, resultados, negocio y cierre | 22 – 25 | **Miguel** | 3:45 |
-| | | **Total** | **≈ 19:45** |
+| 3 · Demo: el día de la visita | 16 – 20 | **Aris** | 3:35 |
+| 4 · Demo: confianza | 21 – 22 | **Diego** | 2:00 |
+| 5 · Cómo funciona, resultados, negocio y cierre | 23 – 26 | **Miguel** | 3:30 |
+| | | **Total** | **≈ 20:00** |
 
-Sigue el formato pedido: **problemática** (1–2) → **solución** (3–5) → **demo** (6–21) → **cómo funciona** (22–23) → **modelo de negocio** (24).
+Sigue el formato pedido: **problemática** (1–2) → **solución** (3–5) → **demo** (6–22) → **cómo funciona** (23–24) → **modelo de negocio** (25).
 
-Por persona: **Miguel ≈ 7:00** · Diego 5:25 · Antonio 4:15 · Aris 3:05.
+Por persona: **Miguel ≈ 6:45** · Diego 5:25 · Antonio 4:15 · Aris 3:35.
 
 El texto de cada diapositiva está medido para durar lo mismo que su video (≈ 2.5 palabras por segundo). Si terminas antes que el video, no pasa nada: se avanza igual.
 
-Diego presenta dos secciones (2 y 4). Los videos de la 20 y la 21 los graba Miguel, pero los narra Diego.
+Diego presenta dos secciones (2 y 4). Los videos de la 21 y la 22 los graba Miguel, pero los narra Diego.
 
 - **El control:** quien presenta su sección avanza sus diapositivas y al terminar pasa el control.
 - **Videos:** arrancan solos. **Se habla encima**, no se espera a que terminen. Si ya terminaste y el video sigue, se avanza igual (→). R repite la diapositiva.
 - **Pase de sección:** cada sección termina nombrando al siguiente (en **negritas**).
-- **Si se pasan de tiempo:** primero se acorta la 15 (Su agenda, −0:20), luego la 23 (Lo prometido, solo «siete de siete», −0:20).
+- **Si se pasan de tiempo:** primero se acorta la 15 (Su agenda, −0:20), luego la 19 (Tu visita es en 1 hora, −0:15).
 
 ---
 
@@ -146,7 +146,7 @@ Ahora sí: llega el día de la visita. **Aris.**"
 
 ---
 
-## Sección 3 · Demo: el día de la visita — Aris (3:05)
+## Sección 3 · Demo: el día de la visita — Aris (3:35)
 
 ### 16 · Agenda desde el camión · 0:40
 > *El camión avanza y aparece «Solicitud enviada».*
@@ -155,17 +155,24 @@ Ahora sí: llega el día de la visita. **Aris.**"
 Solo ve los días y los horarios que Diego abrió, así que no hay forma de pedir una hora en la que Diego no puede. Elige uno, le deja una nota, «Hola, me interesa la habitación», y confirma.
 Listo: la solicitud le llega a Diego, y Aris puede seguir con su día."
 
-### 17 · La visita, aceptada · 0:50
+### 17 · La visita, aceptada · 0:40
 > *Primero la laptop: Diego toca «Aceptar visita»; la pastilla cambia a «Aceptada» y la curva viaja al iPhone, donde llega «Visita confirmada».*
 
-"Diego acepta desde su panel… *(cambia a «Aceptada»)* …y a Aris le llega la notificación al instante, aunque tenga la app cerrada. Y desde ese momento ya tienen un chat para la visita: no se tienen que pasar el número."
+"Diego acepta desde su panel… *(cambia a «Aceptada»)* …y a Aris le llega la notificación al instante, aunque tenga la app cerrada."
 
-### 18 · Tu visita es en 1 hora · 0:45
+### 18 · Lo platican por el chat · 0:40
+> *La laptop y el iPhone a la vez: Aris escribe, en la web aparece «Escribiendo…», llega el mensaje y Diego contesta.*
+
+"Y desde ese momento ya tienen un **chat para la visita**: no se tienen que pasar el número ni salirse a WhatsApp.
+A Aris le salió algo, así que le escribe a Diego desde el teléfono. Fíjense en la laptop: mientras Aris escribe, a Diego le aparece «Escribiendo…», y el mensaje le llega al instante, en tiempo real. Diego contesta desde la web y a Aris le llega igual de rápido.
+Y como todo queda dentro de Roomly, si algo sale mal, la conversación se puede reportar."
+
+### 19 · Tu visita es en 1 hora · 0:45
 > *Corre la cuenta regresiva y suena la campana. En el iPhone llega la notificación, Aris la toca y se abre directo «Tus visitas» con «en 1 h».*
 
 "Antes de la visita, Roomly le avisa. Aris toca la notificación… *(se abre la app)* …y lo lleva directo a su visita, sin buscar nada: a qué hora es, cómo llegar caminando y quién lo recibe."
 
-### 19 · ¿Cómo te fue? · 0:50
+### 20 · ¿Cómo te fue? · 0:50
 > *Se llenan las estrellas y aparece la reseña de Rocío.*
 
 "Al salir, Roomly le pregunta cómo le fue. Aris califica la visita: primero en general, con estrellas, y luego en detalle: si el cuarto era como en las fotos, cómo fue la comunicación y si Diego fue puntual.
@@ -177,7 +184,7 @@ Esa reseña es la que va a leer el siguiente estudiante en el perfil de Diego. A
 
 ## Sección 4 · Demo: confianza — Diego (2:00)
 
-### 20 · Una persona revisa cada caso · 1:00
+### 21 · Una persona revisa cada caso · 1:00
 > *Fondo cobalto; aparecen los registros de la bitácora y cae «RECHAZADO».*
 
 "Detrás de todo esto hay un panel de administración, y la confianza tiene dos capas.
@@ -186,7 +193,7 @@ La segunda es el predial, que una persona del equipo revisa a mano, documento po
 Porque en internet cualquiera publica cualquier cosa… *(cae el sello)* …a menos que tu predial sea un Sonic. Rechazado."
 > *Pausa para la risa.*
 
-### 21 · ¿Y si alguien publica tu casa? · 1:00
+### 22 · ¿Y si alguien publica tu casa? · 1:00
 > *La flecha lima va del teléfono a la laptop; el reporte pasa de Abierto a Resuelto.*
 
 "Y si algo no cuadra, cualquiera lo puede reportar. Imaginen que Aris ve su propia casa publicada por alguien más. Desde el anuncio toca «Reportar», elige el motivo y adjunta evidencia, por ejemplo fotos de su casa.
@@ -196,21 +203,21 @@ Y cada una de esas decisiones queda en una bitácora de auditoría: quién hizo 
 
 ---
 
-## Sección 5 · Cómo funciona, resultados, negocio y cierre — Miguel (3:45)
+## Sección 5 · Cómo funciona, resultados, negocio y cierre — Miguel (3:30)
 
-### 22 · Una sola API para web y móvil · 1:00
+### 23 · Una sola API para web y móvil · 1:00
 > *Aparecen la web y la app, la línea viaja a la API y luego a la base de datos; abajo se encienden los servicios.*
 
 "Todo lo que acaban de ver, en la laptop y en el iPhone, sale del mismo lugar. Son tres capas: clientes, backend y base de datos. La web está hecha en React y la app en React Native con Expo, una sola base de código para iOS y Android.
 Las dos hablan con **una sola API** en Node.js y Express: ahí viven los roles y permisos, el chat en tiempo real con Socket.IO, los recordatorios y la bitácora. Los datos están en PostgreSQL con PostGIS, que es lo que calcula distancias y evita que dos visitas se empalmen.
 Y nos apoyamos en servicios especializados: Didit para la identidad, OpenRouteService para las rutas, OpenStreetMap para los mapas, Cloudinary para las fotos y Firebase para las notificaciones."
 
-### 23 · Lo prometido, cumplido · 0:45
+### 24 · Lo prometido, cumplido · 0:30
 > *Se dibuja la palomita grande y se marcan los siete puntos.*
 
 "En el Acta nos comprometimos a esto: app para iOS y Android, cuentas por rol, propiedades verificadas, rutas, lugares de interés, citas con chat en tiempo real y notificaciones. **Siete de siete.** Y además el panel del arrendador, la administración y las reseñas."
 
-### 24 · Cómo gana dinero Roomly · 1:30
+### 25 · Cómo gana dinero Roomly · 1:30
 > *Se llenan en lima los cinco bloques del costo.*
 
 "¿Cómo se sostiene? El estudiante **nunca paga**, y publicar y verificarse es gratis. Cobramos por visibilidad, nunca por la renta:
@@ -218,7 +225,7 @@ Y nos apoyamos en servicios especializados: Didit para la identidad, OpenRouteSe
 - **Anuncios locales** de negocios cerca de los cuartos: 149 pesos al mes por zona.
 Operar Roomly cuesta entre 600 y 750 pesos al mes. Con **5 anuncios o 4 destacados** ya está cubierto."
 
-### 25 · Roomly · 0:30
+### 26 · Roomly · 0:30
 > *Los cuatro al frente.*
 
 "Somos Miguel, Antonio, Diego y Aris. Esto es **Roomly: tu cuarto, a minutos de clase.**

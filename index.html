@@ -799,6 +799,16 @@ h2.md{font-size:88px}
   <div class="dev ios a from-r" style="--d:.35s;left:1380px;top:250px;width:330px" data-slot='{"id":"R3 · iPhone","t":"Llega la notificación","who":"Aris · iPhone"}' data-list='[["v","R3-ios.mp4"]]'></div>
 </section>
 
+<!-- 15 bis · El chat -->
+<section class="slide sky-top" data-act="El día de la visita">
+  <div style="position:absolute;left:128px;top:140px;width:1180px;display:flex;flex-direction:column;gap:18px">
+    <h2 class="md a">Lo platican por el chat.</h2>
+    <p class="lead a" style="--d:.1s;max-width:1150px">Al aceptar la visita se abre su chat. Aris escribe desde el teléfono y a Diego le llega al instante en la web, con «Escribiendo…» en vivo.</p>
+  </div>
+  <div class="dev web a from-l" style="--d:.2s;left:200px;top:375px;width:880px" data-slot='{"id":"R4 · laptop","t":"Diego contesta","who":"Aris · laptop como Diego"}' data-list='[["v","R4-web.mp4"]]'></div>
+  <div class="dev ios a from-r" style="--d:.35s;left:1330px;top:150px;width:360px" data-slot='{"id":"R4 · iPhone","t":"Aris escribe","who":"Aris · iPhone"}' data-list='[["v","R4-ios.mp4"]]'></div>
+</section>
+
 <!-- 17 · Recordatorio -->
 <section class="slide" data-act="El día de la visita">
   <div style="position:absolute;left:128px;top:170px;width:900px;display:flex;flex-direction:column;gap:28px">
@@ -987,7 +997,7 @@ slides.forEach(() => dots.appendChild(document.createElement('i')));
 
 const PLAY = '<svg width="26" height="26" viewBox="0 0 24 24" fill="#1638F0"><path d="M8 5v14l11-7z"/></svg>';
 const LOCK = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>';
-const URLS = { A1:'roomly.mx', A2:'roomly.mx', A3:'roomly.mx/buscar', A4:'roomly.mx/propiedades', A5:'roomly.mx/propiedades', M4:'roomly.mx/arrendadores', D1:'roomly.mx/arrendador', M1:'roomly.mx/arrendador/verificacion', D3:'roomly.mx/arrendador/citas', R3:'roomly.mx/arrendador/citas', M3:'roomly.mx/admin', M5:'roomly.mx/admin/reportes' };
+const URLS = { A1:'roomly.mx', A2:'roomly.mx', A3:'roomly.mx/buscar', A4:'roomly.mx/propiedades', A5:'roomly.mx/propiedades', M4:'roomly.mx/arrendadores', D1:'roomly.mx/arrendador', M1:'roomly.mx/arrendador/verificacion', D3:'roomly.mx/arrendador/citas', R3:'roomly.mx/arrendador/citas', R4:'roomly.mx/arrendador/mensajes', M3:'roomly.mx/admin', M5:'roomly.mx/admin/reportes' };
 
 document.querySelectorAll('.dev[data-list]').forEach(dev => {
   const slot = JSON.parse(dev.dataset.slot || '{}');
